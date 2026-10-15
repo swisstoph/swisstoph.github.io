@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Before You Eat</title>
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="https://swisstoph.github.io/BeforeYouEat/">
+  <script>
+    // ScoreOnTheDoor is now called Before You Eat and lives at /BeforeYouEat/.
+    // Forward visitors there, keeping the screen they had open (the part after #).
+    (async () => {
+      // Phones that installed the old app have a service worker for this address; switch it off.
+      try {
+        const regs = await navigator.serviceWorker?.getRegistrations?.() ?? [];
+        await Promise.all(regs.filter(r => r.scope.includes('/ScoreOnTheDoor/')).map(r => r.unregister()));
+      } catch { /* not supported: nothing to clean up */ }
+      location.replace('/BeforeYouEat/' + location.search + location.hash);
+    })();
+  </script>
+  <meta http-equiv="refresh" content="3; url=/BeforeYouEat/">
+</head>
+<body style="font: 17px/1.5 system-ui, sans-serif; padding: 24px;">
+  <p>ScoreOnTheDoor is now called <strong>Before You Eat</strong>.</p>
+  <p><a href="/BeforeYouEat/">Continue to Before You Eat</a></p>
+</body>
+</html>

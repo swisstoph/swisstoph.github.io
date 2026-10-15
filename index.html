@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Swisstoph Apps</title>
+  <meta name="description" content="Small, free hobby apps by Swisstoph Apps.">
+  <meta name="color-scheme" content="light dark">
+  <style>
+    :root { --bg: #ffffff; --text: #0b0c0e; --muted: #4b5058; --line: #d6d9de; --link: #0b57d0; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #111214; --text: #f4f5f7; --muted: #b4b9c1; --line: #34373d; --link: #8ab4f8; } }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+    main { max-width: 640px; margin: 0 auto; padding: 32px 16px; }
+    h1 { font-size: 28px; margin: 0 0 8px; }
+    a { color: var(--link); }
+    .app { display: flex; gap: 14px; align-items: center; padding: 16px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin: 24px 0; text-decoration: none; color: inherit; }
+    .app img { width: 56px; height: 56px; border-radius: 12px; }
+    .app strong { font-size: 19px; }
+    .muted { color: var(--muted); font-size: 15px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Swisstoph Apps</h1>
+    <p class="muted">Small, free hobby apps.</p>
+
+    <a class="app" href="/BeforeYouEat/">
+      <img src="/BeforeYouEat/icons/icon-192.png" alt="">
+      <span><strong>Before You Eat</strong><br>
+        <span class="muted">Check the food hygiene rating before you eat: FSA ratings for the places near you, across the UK.</span></span>
+    </a>
+
+    <p class="muted">Contact: <a href="mailto:swisstophapps@gmail.com">swisstophapps@gmail.com</a></p>
+  </main>
+</body>
+</html>
