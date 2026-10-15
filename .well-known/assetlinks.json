@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.swisstoph.beforeyoueat",
+        "sha256_cert_fingerprints": ["0E:55:C1:51:38:E2:2B:38:BE:3A:2D:EB:60:D3:35:1B:62:6A:C3:80:49:E0:8C:1E:C5:2C:F8:7B:93:24:36:DA"]
+      }
+    }]
