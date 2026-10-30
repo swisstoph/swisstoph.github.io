@@ -3,6 +3,9 @@
       "target": {
         "namespace": "android_app",
         "package_name": "io.github.swisstoph.beforeyoueat",
-        "sha256_cert_fingerprints": ["0E:55:C1:51:38:E2:2B:38:BE:3A:2D:EB:60:D3:35:1B:62:6A:C3:80:49:E0:8C:1E:C5:2C:F8:7B:93:24:36:DA"]
+        "sha256_cert_fingerprints": [
+          "0E:55:C1:51:38:E2:2B:38:BE:3A:2D:EB:60:D3:35:1B:62:6A:C3:80:49:E0:8C:1E:C5:2C:F8:7B:93:24:36:DA",
+          "63:C6:6E:D9:4F:26:A0:D7:AE:23:72:BC:BA:26:02:8F:35:2F:B3:FD:74:92:60:B3:9B:1B:9C:C2:4A:6E:A5:CB"
+        ]
       }
     }]
